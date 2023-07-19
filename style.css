@@ -1,1 +1,104 @@
+<!review section starts here>
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .Reviews
+    
+    {
+    margin: 50px auto;
+    }
+    
+    .Reviews h1
+    
+    {
+    text-align: center;
+    font-weight:bold;
+    color:rgb(30, 107, 99);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    }
+    .Reviews h1::after
+    
+    {
+      content: '';
+      background:#eed6c7;
+      display:block;
+      height: 3px;
+      width: 170px;
+      margin: 20px auto 5px;
+    }
+    .Reviews .row
+    {
+        margin-top: 30px;
+    }
+    .col-md-4
+    {
+        margin: 40px auto;
+    }
+    .profile
+    {
+        padding: 70px 10px 10px;
+        background-color: #efefef;
+    }
+    .profile img
+    {
+
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+    }
+
+    .user
+    {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    
+    .profile h3
+    {
+        font-size: 20px;
+        margin-top: 15x;
+        color: rgb(27, 121, 109);
+    }
+    span
+    {
+        font-size: 12px;
+        color:#c9ce29;
+    }
+    blockquote
+    {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    blockquote::before
+    {
+        content: '\201C';
+        font-size: 50px;
+        position: relative;
+        color:rgb(53, 152, 142);
+        line-height: 20px;
+        bottom: -15x;
+        right: 5px;
+    }
+   blockquote::after
+    {
+        content: '\201D';
+        font-size: 50px;
+        position:relative;
+        color:rgb(53, 152, 142);
+        line-height: 10px;
+        bottom: -15x;
+        left: 5px;
+    }
+    .profile:hover
+    {
+        box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+
+    }
+
+
+
 
